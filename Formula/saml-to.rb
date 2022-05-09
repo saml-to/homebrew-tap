@@ -1,3 +1,5 @@
+require "language/node"
+
 class SamlTo < Formula
     desc "Command Line Interface for SAML.to"
     homepage "https://github.com/saml-to/cli"
@@ -5,10 +7,10 @@ class SamlTo < Formula
     sha256 "2a8fc5d484ab526dd14940cbcab9ac47a9c188b4b3156bd107826a2790ac5558"
     license "Apache-2.0"
   
-    depends_on "node@14"
+    depends_on "node"
   
     def install
-      system libexec/"bin/npm", "install", "-g", buildpath
+      system "npm", "install", *Language::Node.std_npm_install_args(libexec)
     end
   
     test do
