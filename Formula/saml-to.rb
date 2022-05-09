@@ -11,7 +11,7 @@ class SamlTo < Formula
   
     def install
       system "npm", "install", *Language::Node.std_npm_install_args(libexec)
-      bin.install "saml-to"
+      bin.install "#{bin}/saml-to"
     end
   
     test do
