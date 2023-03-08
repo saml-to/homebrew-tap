@@ -3,8 +3,8 @@ require "language/node"
 class SamlTo < Formula
     desc "Command Line Interface for SAML.to"
     homepage "https://github.com/saml-to/cli"
-    url "https://github.com/saml-to/cli/archive/refs/tags/2.0.4.tar.gz"
-    sha256 "96e6f2e76f77dea898a171249bcb033f4b36a1e0e3ea249e864dc02177704ac3"
+    url "https://github.com/saml-to/cli/archive/refs/tags/2.1.0.tar.gz"
+    sha256 "8cb07b830f22a96977cf65e024ecd1e5557346a82101560c454df30a15df129f"
     license "Apache-2.0"
   
     depends_on "node"
