@@ -4,7 +4,7 @@ class SamlTo < Formula
     desc "Command Line Interface for SAML.to"
     homepage "https://github.com/saml-to/cli"
     url "https://github.com/saml-to/cli/archive/refs/tags/2.2.0.tar.gz"
-    sha256 "f8266a6f85e0f91a97e22b7436e53c1383148a93298695993b8bfb2bab6c2443"
+    sha256 "6d6d90c615d333b5595ecc83764ec5c65dffca44e38e2efae03532b88999ae19"
     license "Apache-2.0"
   
     depends_on "node"
